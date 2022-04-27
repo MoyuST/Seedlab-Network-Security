@@ -1,0 +1,4 @@
+zone "patrick.edu" {
+	type master;
+	file "/etc/bind/patrick.edu.db";
+};

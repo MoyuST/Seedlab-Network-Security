@@ -1,0 +1,18 @@
+$TTL 3D
+@       IN      SOA   ns.patrick.edu. admin.patrick.edu. (
+                2008111001
+                8H
+                2H
+                4W
+                1D)
+
+; Records for this nameserver (you need to make changes)
+@               IN   NS    ns.patrick.edu.
+ns.patrick.edu  IN   A     10.9.0.75
+
+
+; IP addresses for the hostnames in the patrick.edu domain
+@       IN      A     6.6.6.6
+www     IN      A     6.6.6.7
+xyz     IN      A     6.6.6.8
+*       IN      A     6.6.6.9
